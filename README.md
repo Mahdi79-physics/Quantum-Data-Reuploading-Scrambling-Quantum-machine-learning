@@ -39,7 +39,7 @@ Data-Reuploading-QML/
 │
 └── results/
     └── SMOTE_Scrambling_Results.csv
-
+---
 
 ## 📊 Dataset & Feature Engineering
 
@@ -110,7 +110,7 @@ Each material sample is represented as a **5-dimensional feature vector**:
 
 These vectors are used directly as inputs to the **data re-uploading quantum circuit**.
 
-
+---
 ## 🔀 Quantum Circuit Architecture
 
 The quantum model is implemented as a **variational data re-uploading circuit** with strongly entangling scrambling layers, designed to maximize expressivity under a limited qubit budget.
@@ -237,11 +237,11 @@ This architecture is chosen to:
 | Expressivity | Data re-uploading |
 | Readout | Single-qubit expectation |
 | Scalability | Linear in layer count |
-
+---
 ## 📐 Measurement & Output
 
 The quantum classifier produces a **single scalar output** obtained from a projective measurement on one qubit.
-
+---
 ### 🔍 Observable
 
 The model measures the expectation value of the Pauli-Z operator on qubit 0:
