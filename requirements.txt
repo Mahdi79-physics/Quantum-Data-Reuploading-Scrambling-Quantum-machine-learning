@@ -1,0 +1,20 @@
+# Data manipulation
+pandas>=1.5.0
+numpy>=1.25.0
+matplotlib>=3.7.0
+
+# Element properties
+mendeleev>=0.13.0
+
+# Machine Learning & Imbalance handling
+scikit-learn>=1.3.0
+imbalanced-learn>=0.11.0
+
+# Quantum computing
+pennylane>=0.40.0
+
+# For reproducible experiments
+python>=3.10
+
+# For plotting improvements
+seaborn>=0.12.0
