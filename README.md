@@ -399,8 +399,6 @@ The training and evaluation process produces both **visual diagnostics** and **s
 - Margin-based loss ensures confident separation between classes.
 - No abrupt oscillations are observed, reflecting good gradient behavior.
 
-**Figure:**
-- `figures/training_loss.png`
 
 ---
 
@@ -412,8 +410,51 @@ Accuracy is tracked throughout training for both training and test sets.
 - Test accuracy follows closely, indicating good generalization.
 - No severe overfitting is observed despite strong circuit expressivity.
 
-**Figures:**
-- `figures/accuracy.png`
+### 📈 Training Results
+
+| Epoch | Loss   | Train Accuracy | Test Accuracy |
+|-------|--------|----------------|---------------|
+| 1     | 0.9060 | 0.7924         | 0.7611        |
+| 2     | 0.6816 | 0.8228         | 0.7522        |
+| 3     | 0.6079 | 0.8582         | 0.8053        |
+| 4     | 0.5886 | 0.8684         | 0.8053        |
+| 5     | 0.5513 | 0.8734         | 0.7699        |
+| 6     | 0.4833 | 0.8886         | 0.7611        |
+| 7     | 0.4651 | 0.8835         | 0.7788        |
+| 8     | 0.4840 | 0.8911         | 0.7876        |
+| 9     | 0.4625 | 0.8886         | 0.7876        |
+| 10    | 0.4437 | 0.8886         | 0.7965        |
+| 11    | 0.4208 | 0.9114         | 0.8053        |
+| 12    | 0.4212 | 0.9165         | 0.8230        |
+| 13    | 0.4374 | 0.9114         | 0.8230        |
+| 14    | 0.4327 | 0.9114         | 0.8142        |
+| 15    | 0.4336 | 0.9038         | 0.8319        |
+| 16    | 0.4158 | 0.9139         | 0.8142        |
+| 17    | 0.4074 | 0.9114         | 0.7876        |
+| 18    | 0.3984 | 0.9165         | 0.7965        |
+| 19    | 0.4488 | 0.9165         | 0.7965        |
+| 20    | 0.4264 | 0.9063         | 0.7876        |
+| 21    | 0.3888 | 0.9038         | 0.7965        |
+| 22    | 0.3853 | 0.9190         | 0.8230        |
+| 23    | 0.3912 | 0.9215         | 0.8142        |
+| 24    | 0.4372 | 0.9114         | 0.7876        |
+| 25    | 0.3943 | 0.9190         | 0.7965        |
+| 26    | 0.3848 | 0.9139         | 0.7965        |
+| 27    | 0.4230 | 0.9165         | 0.7965        |
+| 28    | 0.3986 | 0.9241         | 0.8142        |
+| 29    | 0.3944 | 0.9215         | 0.7965        |
+| 30    | 0.3906 | 0.9165         | 0.8053        |
+
+---
+
+### 🖼 Learning Curve
+
+![Training Loss and Accuracy](output.png)
+
+- **Left plot:** Margin loss vs. epoch.  
+- **Right plot:** Training and test accuracy vs. epoch.  
+
+> The curves show stable convergence and good generalization, demonstrating the effectiveness of **SMOTEENN balancing** and **data re-uploading quantum circuit**.
 
 ---
 
