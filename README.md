@@ -39,6 +39,8 @@ Data-Reuploading-QML/
 │
 └── results/
     └── SMOTE_Scrambling_Results.csv
+```
+
 ---
 
 ## 📊 Dataset & Feature Engineering
