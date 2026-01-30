@@ -19,27 +19,6 @@ This project explores how **data re-uploading quantum circuits** enhance express
 - 📐 **Margin (hinge) loss** for robust classification  
 - ⚡ **Adjoint differentiation** for efficient gradient evaluation  
 
----
-
-## 📂 Repository Structure
-
-```text
-Data-Reuploading-QML/
-│
-├── README.md
-├── requirements.txt
-├── TableS1.csv
-│
-├── model/
-│   └── data_reuploading_scrambling.py
-│
-├── figures/
-│   ├── training_loss.png
-│   └── accuracy.png
-│
-└── results/
-    └── SMOTE_Scrambling_Results.csv
-```
 
 ---
 
